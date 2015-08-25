@@ -1,7 +1,7 @@
 /************************
 * Sample React Native App
 * Created By Melih Mucuk
-* https://github.com/melihmucuk/React-Native-Admob-Sample
+* https://github.com/melihmucuk/react-native-admob-sample
 ************************/
 'use strict';
 
