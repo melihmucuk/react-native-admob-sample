@@ -27,6 +27,14 @@ RCT_EXPORT_METHOD(showBannerOnBottomOfTheView:(NSString *) adUnitID){
   });
 }
 
+RCT_EXPORT_METHOD(removeBannerFromTheView){
+  dispatch_sync(dispatch_get_main_queue(), ^{
+    if(bannerView != nil){
+      [bannerView removeFromSuperview];
+    }
+  });
+}
+
 RCT_EXPORT_METHOD(loadInterstitial:(NSString *) adUnitID){
   dispatch_sync(dispatch_get_main_queue(), ^{
     interstitial = [[GADInterstitial alloc] initWithAdUnitID:adUnitID];
