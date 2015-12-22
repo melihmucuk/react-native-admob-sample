@@ -14,6 +14,12 @@ Admob sample for React Native.
    <pre><code>var BannerAdUnitId = 'Your Banner Ad Unit ID';
    var InterstitialAdUnitId = 'Your Interstitial Ad Unit ID';</code></pre>
 
+## Use In Your App
+
+1. Please follow admob ios tutorial [here](https://developers.google.com/admob/ios/quick-start)
+2. Copy `AdMobManager.h` and `AdMobManager.m` files to your project.
+3. Then follow `Usage` section
+
 ## Usage
 * require `NativeModules`
 
