@@ -17,6 +17,8 @@ Admob sample for React Native.
 ## Use In Your App
 
 1. Please follow admob ios tutorial [here](https://developers.google.com/admob/ios/quick-start)
+   Note: if you install admob via PodFile, then you will need to do the following:
+   Add ‘$(inherited)’ to Build settings-> Other Linker Flags 
 2. Copy `AdMobManager.h` and `AdMobManager.m` files to your project.
 3. Then follow `Usage` section
 
