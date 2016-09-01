@@ -14,6 +14,10 @@ Admob sample for React Native.
    <pre><code>var BannerAdUnitId = 'Your Banner Ad Unit ID';
    var InterstitialAdUnitId = 'Your Interstitial Ad Unit ID';</code></pre>
 
+* Use these test ids for testing
+   <pre><code>var BannerAdUnitId = 'ca-app-pub-3940256099942544/6300978111';
+var InterstitialAdUnitId =  'ca-app-pub-3940256099942544/1033173712';</code></pre>
+
 ## Use In Your App
 
 1. Please follow admob ios tutorial [here](https://developers.google.com/admob/ios/quick-start)
